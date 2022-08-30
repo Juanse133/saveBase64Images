@@ -48,7 +48,8 @@
         submit.addEventListener("click", (e) => {
             e.preventDefault();
             addDoc(collection(db, "images"), {
-                imageBase64: base64String
+                imageBase64: base64String,
+                date: new Date()
             });
 
 
