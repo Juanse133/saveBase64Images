@@ -1,3 +1,5 @@
+
+
 let base64String = "";
 
 async function uploadImage() {
